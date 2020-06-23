@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cliente</title>
+	<meta charset="utf-8"/>
+	<meta name="description" content="formulario para enviar un mensaje al servidor."/>
+	<link rel="stylesheet" type="text/css" href="./index.css">
+
+</head>
+<body>
+
+	<div>
+		<label>Mensaje</label>
+		<textarea name="message" id="message" placeholder="Mensaje a cifrar y enviar por via encriptada"></textarea>
+		<button type="submit" onclick="send();">Enviar Mensaje</button>
+	</div>
+
+	<script type="text/javascript" src="./index.js"></script>
+	<script language="javascript" type="text/javascript" src="./cryptico/jsbn.js"></script>
+	<script language="javascript" type="text/javascript" src="./cryptico/random.js"></script>
+	<script language="javascript" type="text/javascript" src="./cryptico/hash.js"></script>
+	<script language="javascript" type="text/javascript" src="./cryptico/rsa.js"></script>
+	<script language="javascript" type="text/javascript" src="./cryptico/aes.js"></script>
+	<script language="javascript" type="text/javascript" src="./cryptico/api.js"></script>
+</body>
+</html>
